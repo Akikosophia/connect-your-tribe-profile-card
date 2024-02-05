@@ -1,14 +1,24 @@
 <%- include('./partials/head') %>
 
 <article>
-  <header>
-    <h1>Hallo</h1>
-    <p>mijn naam is</p>
-  </header>
 
-  <p><%= data.name %></p>
+    <h1><%= data.name %> <%= data.surname %></h1>
+    <p><em><%= data.bio %></em></p>
 
-  <footer></footer>
+
+  <div class="profile">
+      <img class="image" src="assets/Scherm­afbeelding 2023-09-04 om 19.42.22.png">
+
+    <ul>
+      <li>11-04-1994</li>
+      <li>Amstelveen </li>
+      <li>asschermer@hotmail.com </li>
+      <li>@akikosophia </li>
+    </ul>
+  </div>
+
+  
+
 </article>
 
 <%- include('./partials/foot') %>
