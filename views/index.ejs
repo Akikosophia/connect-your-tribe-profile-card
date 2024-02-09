@@ -1,24 +1,55 @@
 <%- include('./partials/head') %>
 
-<article>
+<body>
+  <article>
 
-    <h1><%= data.name %> <%= data.surname %></h1>
-    <p><em><%= data.bio %></em></p>
+    <div class="card">
+      <img src="assets/DSC03832.jpg" alt="backgroundimg-akiko"  style="width:100%">
+
+       <div class="card-body">
+
+        <h1 class="card-title"><%= data.name %> <%= data.surname %></h1>
+        <p class="card-info"> Hi, ik ben Akiko Schermer
+Momenteel volg ik de opleiding frontend design & development (HVA). </p> 
+
+   <a href="" class="card-btn">Follow</button></a>
+       </div>
+       </div>
+
+      </article>
+    </body>
 
 
-  <div class="profile">
-      <img class="image" src="assets/Scherm­afbeelding 2023-09-04 om 19.42.22.png">
+   <!-- ** visitekaart 2 -->
+   <!-- <article> -->
+ <!-- <h1><%= data.name %> <%= data.surname %></h1> -->
+    <!-- <p><em><%= data.bio %></em></p>  -->
+    <!-- <h1>Akiko Schermer</h1> -->
 
-    <ul>
+  <!-- <div class="profile">
+      <img class="image" src="assets/WhatsApp Image 2024-02-07 at 9.51.15 PM.jpeg" alt="photo-akiko">
+
+  </div>
+  <ul>
+    <li>Amstelveen </li>
+    <li>asschermer@hotmail.com </li>
+    <li>@akikosophia </li>
+  </ul>
+
+
+  <button class="circle"></button>
+
+</article>
+
+<article class="container">
+ <ul>
       <li>11-04-1994</li>
       <li>Amstelveen </li>
       <li>asschermer@hotmail.com </li>
       <li>@akikosophia </li>
-    </ul>
-  </div>
+    </ul> 
+</article>  -->
 
-  
 
-</article>
 
 <%- include('./partials/foot') %>
